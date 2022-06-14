@@ -1,0 +1,40 @@
+/dts-v1/;
+/plugin/;
+
+// tidy by greatcat@ms18.hinet.net
+// test with rasp 3B, linux 5.10.17-v7+
+/ {
+	compatible = "brcm,bcm2835";	
+	fragment@0 {
+		target= <&dsi1>;
+		__overlay__{
+			#address-cells = < 0x01 >;
+			#size-cells = < 0x00 >;
+			status = "okay";
+
+ 			port {
+ 
+ 				dsi1_ep:endpoint {
+ 					remote-endpoint = < &ws7_ep >;
+ 					phandle = < 0x02 >;
+ 				};
+ 			};
+ 
+ 			WS_7inchDSI1024x600_Screen@0 {
+ 				compatible = "WS_7inchDSI1024x600_Screen_compatible";
+ 				Backlight_value = < 0xff >;
+ 				label = "WS_7inchDSI1024x600_Screen";
+ 				phandle = < 0x03 >;
+ 				reg = < 0x00 >;
+ 
+ 				port {
+ 
+ 					ws7_ep:endpoint {
+ 						remote-endpoint = < &dsi1_ep >;
+ 						phandle = < 0x01 >;
+ 					};
+ 				};
+ 			};
+		};
+	};
+};
