@@ -2,9 +2,13 @@
 
 ![PIC](pic/rasp_rgb888_pin.png)<BR><BR><BR>
 
+  
+## Waveshare 7inch Display for Raspberry Pi, 1024x600, DPI Interface
+https://www.waveshare.com/7inch-lcd-for-pi.htm<BR>
 ![PIC](pic/demo1.jpg)<BR><BR><BR>
   
-## 7inch Capacitive Touch LCD (D) 1024x600
+## Waveshare 7inch Capacitive Touch LCD (D) 1024x600
+https://www.waveshare.com/7inch-capacitive-touch-lcd-d.htm<BR>
 ![PIC](pic/demo2.jpg)<BR><BR><BR>
 
 ### back view
