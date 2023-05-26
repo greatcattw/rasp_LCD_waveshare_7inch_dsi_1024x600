@@ -4,3 +4,5 @@
 
 ![PIC](pic/rasp_rgb888_pin.png)<BR><BR><BR>
 ![PIC](pic/demo2.jpg)<BR><BR><BR>
+
+![PIC](pic/lcd_spec.png)<BR><BR><BR>  
